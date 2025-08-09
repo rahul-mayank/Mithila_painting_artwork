@@ -1,0 +1,93 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Seller Dashboard - MithilaCraft</title>
+    <link rel="stylesheet" href="style.css">
+    <link href="https://fonts.googleapis.com/css2?family=Lora:wght@700&family=Montserrat:wght@400;500;600&display=swap" rel="stylesheet">
+</head>
+<body class="dashboard-body">
+
+    <div class="dashboard-layout">
+        <aside class="dashboard-sidebar">
+            <div class="logo-dashboard">MithilaCraft Seller</div>
+            <nav class="dashboard-nav">
+                <ul>
+                    <li><a href="#" class="active">Dashboard</a></li>
+                    <li><a href="#">My Products</a></li>
+                    <li><a href="#">Orders</a></li>
+                    <li><a href="#">Analytics</a></li>
+                    <li><a href="#">Profile</a></li>
+                    <li><a href="#">Settings</a></li>
+                    <li><a href="index.html">Log Out</a></li>
+                </ul>
+            </nav>
+        </aside>
+
+        <main class="dashboard-main">
+            <header class="dashboard-header">
+                <h1>Welcome back, Anamika!</h1>
+                <button class="btn-primary">Add New Product</button>
+            </header>
+
+            <section class="stat-cards">
+                <div class="stat-card">
+                    <h2>$4,250</h2>
+                    <p>Total Revenue</p>
+                </div>
+                <div class="stat-card">
+                    <h2>15</h2>
+                    <p>Orders This Month</p>
+                </div>
+                <div class="stat-card">
+                    <h2>32</h2>
+                    <p>Total Products</p>
+                </div>
+                <div class="stat-card">
+                    <h2>3</h2>
+                    <p>Pending Orders</p>
+                </div>
+            </section>
+
+            <section class="recent-orders">
+                <h2>Recent Orders</h2>
+                <table>
+                    <thead>
+                        <tr>
+                            <th>Order ID</th>
+                            <th>Customer</th>
+                            <th>Date</th>
+                            <th>Amount</th>
+                            <th>Status</th>
+                        </tr>
+                    </thead>
+                    <tbody>
+                        <tr>
+                            <td>#MC1052</td>
+                            <td>Rohan Kumar</td>
+                            <td>Aug 09, 2025</td>
+                            <td>$220.00</td>
+                            <td><span class="status shipped">Shipped</span></td>
+                        </tr>
+                        <tr>
+                            <td>#MC1051</td>
+                            <td>Priya Sharma</td>
+                            <td>Aug 08, 2025</td>
+                            <td>$150.00</td>
+                            <td><span class="status processing">Processing</span></td>
+                        </tr>
+                        <tr>
+                            <td>#MC1050</td>
+                            <td>Amit Singh</td>
+                            <td>Aug 07, 2025</td>
+                            <td>$400.00</td>
+                            <td><span class="status delivered">Delivered</span></td>
+                        </tr>
+                    </tbody>
+                </table>
+            </section>
+        </main>
+    </div>
+</body>
+</html>
